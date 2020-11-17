@@ -18,5 +18,5 @@ TEST(PracticeTest, is_simple_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("Not a palindrome");
-    ASSERT_TRUE(actual);
+    ASSERT_FALSE(actual);
 }
